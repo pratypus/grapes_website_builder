@@ -1,0 +1,189 @@
+/*Global styles*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Header fonts*/
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v15/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03Sup8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*Content fonts*/
+
+@font-face {
+  font-family: 'Gayathri';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Gayathri Bold'), local('Gayathri-Bold'), url(https://fonts.gstatic.com/s/gayathri/v2/MCoXzAb429DbBilWLLiE34v_J_U.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Regular'), local('FrankRuhlLibre-Regular'), url(https://fonts.gstatic.com/s/frankruhllibre/v5/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Dl4Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*Header*/
+
+h1 {
+  font-family: "Dancing Script", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: hsl(337, 92%, 31%);
+  font-size: 6em;
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+}
+
+.header h3 {
+  font-family: "Poppins", monospace;
+  font-size: 0.8em;
+  color: hsl(11, 80%, 60%);
+  position: relative;
+  bottom: 18px;
+  left: 28px;
+}
+
+.header {
+  background-color: hsl(81, 33%, 81%);
+  width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.header li {
+  display: inline-block;
+  width: 100px;
+  padding: 9px 10px 5px 10px;
+  text-align: center;
+  margin: 0;
+  color: hsl(81, 33%, 81%);
+  font-family: "Gayathri";
+  border-radius: 5px;
+}
+
+.header li:hover {
+  background-color: hsl(81, 33%, 81%);
+  color: hsl(318, 73%, 22%);
+}
+
+#one {
+  margin-left: 10px;
+}
+
+.header ul {
+  background-color: hsl(318, 73%, 22%);
+}
+
+.header a {
+  color: hsl(81, 33%, 81%);
+}
+
+.header a:hover {
+  color: hsl(318, 73%, 22%);
+}
+
+/*content*/
+
+.content h2 {
+  color: hsl(343, 100%, 39%);
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Dancing Script";
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.line_one {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 150px;
+  margin: 20px;
+}
+
+.content {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-size: 0.9em;
+}
+
+.content a {
+  color: hsl(343, 100%, 39%);
+}
+
+/*.content a:visited {
+  color: hsl(318, 73%, 22%);
+}*/
+
+#case_one {
+  font-family: "Frank Ruhl Libre";
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#case_two {
+  font-family: "Pacifico";
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: hsl(81, 33%, 81%);
+  //border: 1px solid hsl(318, 73%, 22%);
+  padding: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer p {
+  font-family: "Gayathri";
+  color: hsl(11, 80%, 60%);
+}
+
+.footer h3 {
+  font-family: "Poppins";
+  color: hsl(337, 92%, 31%);
+}
+
+/*.header {
+  position: fixed;
+  margin-top: 0%;
+}
+
+main {
+  margin-top: 200px;
+}*/
