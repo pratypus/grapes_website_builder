@@ -161,6 +161,8 @@ h1 {
   font-size: 1.2em;
 }
 
+/*Footer*/
+
 footer {
   background-color: hsl(81, 33%, 81%);
   //border: 1px solid hsl(318, 73%, 22%);
@@ -178,6 +180,8 @@ footer {
   font-family: "Poppins";
   color: hsl(337, 92%, 31%);
 }
+
+/*This is the code which gives all those sorts of problems*/
 
 /*.header {
   position: fixed;
